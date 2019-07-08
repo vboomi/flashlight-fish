@@ -20,11 +20,11 @@ The main files to plot mSync are: <br />
 main_mSync_67500.m - Generates plot used in Fig. S2 <br />
 main_mSync_97200.m - Generates plot, subset of which is used in Fig. 3
 
-Above files use already extracted tracking data data_*/tracks.mat
+Above files use already extracted tracking data - data_*/tracks.mat
 
 Example processing files: <br />
 extractCoords.m - Extracts the coordinates of fish from an example frame <br />
-trackFish.m - Tracks the fish IDs from the extracted coordinates data_*/ptCoords.mat
+trackFish.m - Tracks the fish IDs from the extracted coordinates - data_*/ptCoords.mat
 
 Support file:
 particleTrack.m - more info on http://www.physics.emory.edu/faculty/weeks//idl/ <br />

@@ -30,6 +30,10 @@ Support file:
 particleTrack.m - more info on http://www.physics.emory.edu/faculty/weeks//idl/ <br />
 Reference: "Methods of Digital Video Microscopy for Colloidal Studies", John C. Crocker and David G. Grier, J. Colloid Interface Sci. 179, 298 (1996)
 
+## Simulator
+
+ReadMe at Simulator/Boids_ReadMe.txt
+
 ## Paper title
 
 Bioluminescent Flashes Drive Nighttime Schooling Behavior and Synchronized Swimming Dynamics in Flashlight Fish

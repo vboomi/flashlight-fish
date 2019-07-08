@@ -68,6 +68,7 @@ mSyncB = avgVelB(:,1)./avgSpeed(:,1);
 
 %% Plot
 rnge = 184:515; % 1:length(avgSpeed)
-figure, subplot(3,1,1), plot(avgSpeed(rnge,1)); title 'Average Speed';
+figure, subplot(3,1,1), plot(avgSpeed(rnge,1)); title 'Average Speed'; ylabel('pixels');
 subplot(3,1,2), plot(mSync(rnge)), ylim([0,1]); title 'mSync for observed data';
 subplot(3,1,3), plot(mSyncB(rnge)), ylim([0,1]);title 'mSync for random motion'
+xlabel('Frames')

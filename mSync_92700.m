@@ -1,5 +1,7 @@
 %%
-load('data_67500/tracks.mat')
+load('data_92700/tracks.mat')
+
+tracks(:,3) = tracks(:,3)-162; %[x, y, frameNum, ptId]
 
 %% Vels
 
@@ -66,8 +68,7 @@ clearvars indx lindx velSub velVec velB
 mSync = avgVelVec(:,1)./avgSpeed(:,1);
 mSyncB = avgVelB(:,1)./avgSpeed(:,1);
 
-%% Plot
-rnge = 184:515; % 1:length(avgSpeed)
-figure, subplot(3,1,1), plot(avgSpeed(rnge,1)); title 'Average Speed';
-subplot(3,1,2), plot(mSync(rnge)), ylim([0,1]); title 'mSync for observed data';
-subplot(3,1,3), plot(mSyncB(rnge)), ylim([0,1]);title 'mSync for random motion'
+%%
+figure, subplot(3,1,1), plot(avgSpeed); title 'Average Speed';
+subplot(3,1,2), plot(mSync), ylim([0,1]); title 'mSync for observed data';
+subplot(3,1,3), plot(mSyncB), ylim([0,1]); title 'mSync for random motion';

@@ -12,6 +12,8 @@ data_97200 - used to generate Fig. 3 of paper
 */ptCoords.mat - extracted coordinates of all fish in all the frames <br />
 */tracks.mat - tracking data of all fish in all the frames <br />
 
+All frames of dataset data_67500 are available in 10.5281/zenodo.3271649
+
 ## MATLAB Codes
 
 The main files to plot mSync are: <br />

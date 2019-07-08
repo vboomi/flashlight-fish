@@ -17,8 +17,8 @@ All frames of data_67500 is available in - DOI
 ## MATLAB Codes
 
 The main files to plot mSync are: <br />
-mSync_67500.m - Generates plot used in Fig. S2 <br />
-mSync_97200.m - Generates plot, subset of which is used in Fig. 3
+main_mSync_67500.m - Generates plot used in Fig. S2 <br />
+main_mSync_97200.m - Generates plot, subset of which is used in Fig. 3
 
 Above files use already extracted tracking data data_*/tracks.mat
 
